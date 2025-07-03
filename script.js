@@ -199,7 +199,7 @@ const numArrays = [
   [7, 81, 90],
 ];
 
-let numList = numArrays[numArrays.length - 1];
+let numList = numArrays.at(-1);
 console.log("Exercise 13 result:", numList);
 /*
 Exercise 14: Accessing within nested arrays
